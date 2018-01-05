@@ -1,0 +1,26 @@
+[
+  {
+    "codigo": "52",
+    "codigosemir": "83",
+    "descripcion": "Camión rigido de 4 ejes",
+    "descripcionsemir": "Remolque balanceado de 3 ejes",
+    "abreviatura": "4B3",
+    "pesomaximo": "52275",
+    "pesominimo": "70",
+    "galonesminimo": "0",
+    "galonesmaximo": "0",
+    "estado": "inactivo"
+  },
+  {
+    "codigo": "52",
+    "codigosemir": "83",
+    "descripcion": "Camión rigido de 4 ejes",
+    "descripcionsemir": "Remolque balanceado de 3 ejes",
+    "abreviatura": "4B3",
+    "pesomaximo": "52275",
+    "pesominimo": "70",
+    "galonesminimo": "0",
+    "galonesmaximo": "0",
+    "estado": "inactivo"
+  }
+]

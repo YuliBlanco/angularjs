@@ -1,0 +1,27 @@
+[
+  {
+    "codigo": "12344",
+    "nombre": "Oro Cosecha",
+    "estado": "activo"
+  },
+  {
+    "codigo": "12345",
+    "nombre": "Rojo Chianti",
+    "estado": "activo"
+  },
+  {
+    "codigo": "12344",
+    "nombre": "Oro Cosecha",
+    "estado": "activo"
+  },
+  {
+    "codigo": "12345",
+    "nombre": "Rojo Chianti",
+    "estado": "activo"
+  },
+  {
+    "codigo": "12374",
+    "nombre": "Verde",
+    "estado": "activo"
+  }
+]

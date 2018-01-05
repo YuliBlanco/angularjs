@@ -1,0 +1,13 @@
+[
+  {
+    "codigo": "29",
+    "descripcion": "bomba",
+    "estado": "activo"
+
+  },
+  {
+    "codigo": "1047",
+    "descripcion": "EMI",
+    "estado": "inactivo"
+  }
+]
