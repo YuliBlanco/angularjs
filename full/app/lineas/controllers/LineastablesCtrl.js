@@ -18,7 +18,8 @@ angular.module('app.lineas').controller('LineastablesCtrl', function(DTOptionsBu
         DTColumnBuilder.newColumn('descripcionm'),
         DTColumnBuilder.newColumn('codigol'),
         DTColumnBuilder.newColumn('descripcionl'),
-        DTColumnBuilder.newColumn('estado')
+        DTColumnBuilder.newColumn(null).withTitle('Estado').renderWith(function(data, type, full, meta) {
+          return '<label class="toggle"><input type="checkbox" name="checkbox-toggle"><i data-swchon-text="ON" data-swchoff-text="OFF"></i>AQUIELCHECK</label>';})
     ];
 
 

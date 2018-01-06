@@ -16,8 +16,11 @@ angular.module('app.tables').controller('DatatablesCtrl', function(DTOptionsBuil
     this.standardColumns = [
         DTColumnBuilder.newColumn('codigo').withClass('text-danger'),
         DTColumnBuilder.newColumn('nombre'),
-        DTColumnBuilder.newColumn('estado')
+        //DTColumnBuilder.newColumn('estado')
+        DTColumnBuilder.newColumn(null).withTitle('Estado').renderWith(function(data, type, full, meta) {
+          return '<label class="toggle"><input type="checkbox" name="checkbox-toggle"><i data-swchon-text="ON" data-swchoff-text="OFF"></i>AQUIELCHECK</label>';})
     ];
+// <div class="btn-group"><label class="btn btn-primary"><input type="radio" name="blockedTransaction">EDIT</label></div>
 
 
 });

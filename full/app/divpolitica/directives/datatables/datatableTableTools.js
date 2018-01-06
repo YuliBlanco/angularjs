@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('app.divpolitica').directive('datatableTableTools', function () {
+angular.module('app.lineas').directive('datatableTableTools', function () {
     return {
         restrict: 'A',
         link: function (scope, element, attributes) {

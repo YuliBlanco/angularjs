@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('app.divpolitica').directive('datatableColumnReorder', function () {
+angular.module('app.lineas').directive('datatableColumnReorder', function () {
     return {
         restrict: 'A',
         link: function (scope, element) {

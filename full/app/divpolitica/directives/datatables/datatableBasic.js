@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('app.divpolitica').directive('datatableBasic', function ($compile) {
+angular.module('app.lineas').directive('datatableBasic', function ($compile) {
     return {
         restrict: 'A',
         scope: {

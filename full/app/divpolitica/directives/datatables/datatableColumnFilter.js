@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('app.divpolitica').directive('datatableColumnFilter', function () {
+angular.module('app.lineas').directive('datatableColumnFilter', function () {
     return {
         restrict: 'A',
         link: function (scope, element, attributes) {

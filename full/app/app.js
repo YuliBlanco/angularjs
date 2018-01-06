@@ -37,7 +37,7 @@ angular.module('app', [
     'app.carrocerias',
     'app.remolques',
     'app.combinacion',
-    'app.divpolitica',
+    'app.politica',
     'app.mercancias',
     'app.renombre',
     'app.empaque',

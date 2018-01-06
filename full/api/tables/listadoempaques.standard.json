@@ -5,7 +5,6 @@
     "descripcioncompleta": "Utiliza cuando el producto a transportar sean automóviles, animales o máquinas",
     "definicion": "Remolque balanceado de 3 ejes",
     "pesovaciominimo": "0",
-    "pesovaciomaximo": "0",
-    "estado": "inactivo"
+    "pesovaciomaximo": "0"
   }
 ]

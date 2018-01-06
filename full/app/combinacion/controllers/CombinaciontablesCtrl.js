@@ -23,7 +23,8 @@ angular.module('app.combinacion').controller('CombinaciontablesCtrl', function(D
         DTColumnBuilder.newColumn('pesominimo'),
         DTColumnBuilder.newColumn('galonesminimo'),
         DTColumnBuilder.newColumn('galonesmaximo'),
-        DTColumnBuilder.newColumn('estado')
+        DTColumnBuilder.newColumn(null).withTitle('Estado').renderWith(function(data, type, full, meta) {
+          return '<label class="toggle"><input type="checkbox" name="checkbox-toggle"><i data-swchon-text="ON" data-swchoff-text="OFF"></i>AQUIELCHECK</label>';})
 
     ];
 

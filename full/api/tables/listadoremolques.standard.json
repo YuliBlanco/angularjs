@@ -1,13 +1,11 @@
 [
   {
     "codigo": "29",
-    "descripcion": "bomba",
-    "estado": "activo"
+    "descripcion": "bomba"
 
   },
   {
     "codigo": "1047",
-    "descripcion": "EMI",
-    "estado": "inactivo"
+    "descripcion": "EMI"
   }
 ]

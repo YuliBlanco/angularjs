@@ -8,8 +8,7 @@
     "pesomaximo": "52275",
     "pesominimo": "70",
     "galonesminimo": "0",
-    "galonesmaximo": "0",
-    "estado": "inactivo"
+    "galonesmaximo": "0"
   },
   {
     "codigo": "52",
@@ -20,7 +19,6 @@
     "pesomaximo": "52275",
     "pesominimo": "70",
     "galonesminimo": "0",
-    "galonesmaximo": "0",
-    "estado": "inactivo"
+    "galonesmaximo": "0"
   }
 ]

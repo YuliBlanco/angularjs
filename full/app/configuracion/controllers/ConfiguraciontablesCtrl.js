@@ -18,7 +18,8 @@ angular.module('app.configuracion').controller('ConfiguraciontablesCtrl', functi
         DTColumnBuilder.newColumn('nombre'),
         DTColumnBuilder.newColumn('descripcion'),
         DTColumnBuilder.newColumn('tipo'),
-        DTColumnBuilder.newColumn('estado')
+        DTColumnBuilder.newColumn(null).withTitle('Estado').renderWith(function(data, type, full, meta) {
+          return '<label class="toggle"><input type="checkbox" name="checkbox-toggle"><i data-swchon-text="ON" data-swchoff-text="OFF"></i>AQUIELCHECK</label>';})
     ];
 
 

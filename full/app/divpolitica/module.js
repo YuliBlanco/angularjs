@@ -1,26 +1,26 @@
 "use strict";
 
-angular.module('app.divpolitica', [ 'ui.router']);
+angular.module('app.politica', [ 'ui.router']);
 
-angular.module('app.divpolitica').config(function ($stateProvider) {
+angular.module('app.politica').config(function ($stateProvider) {
 
     $stateProvider
-        .state('app.divpolitica', {
+        .state('app.politica', {
             abstract: true,
             data: {
                 title: 'División Política'
             }
         })
 
-        .state('app.divpolitica.divpolitica', {
-            url: '/divpolitica',
+        .state('app.politica.politica', {
+            url: '/politica',
             data: {
-                title: 'Listado División Politica'
+                title: 'Listado de División Política'
             },
             views: {
                 "content@app": {
                     controller: 'PoliticatablesCtrl as datatables',
-                    templateUrl: "app/divpolitica/views/divpolitica.html"
+                    templateUrl: "app/divpolitica/views/politica.html"
 
                 }
             }

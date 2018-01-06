@@ -1,27 +1,22 @@
 [
   {
     "codigo": "12344",
-    "nombre": "Oro Cosecha",
-    "estado": "activo"
+    "nombre": "Oro Cosecha"
   },
   {
     "codigo": "12345",
-    "nombre": "Rojo Chianti",
-    "estado": "activo"
+    "nombre": "Rojo Chianti"
   },
   {
     "codigo": "12344",
-    "nombre": "Oro Cosecha",
-    "estado": "activo"
+    "nombre": "Oro Cosecha"
   },
   {
     "codigo": "12345",
-    "nombre": "Rojo Chianti",
-    "estado": "activo"
+    "nombre": "Rojo Chianti"
   },
   {
     "codigo": "12374",
-    "nombre": "Verde",
-    "estado": "activo"
+    "nombre": "Verde"
   }
 ]

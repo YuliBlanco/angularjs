@@ -20,7 +20,8 @@ angular.module('app.empaque').controller('EmpaquetablesCtrl', function(DTOptions
         DTColumnBuilder.newColumn('definicion'),
         DTColumnBuilder.newColumn('pesovaciominimo'),
         DTColumnBuilder.newColumn('pesovaciomaximo'),
-        DTColumnBuilder.newColumn('estado')
+        DTColumnBuilder.newColumn(null).withTitle('Estado').renderWith(function(data, type, full, meta) {
+          return '<label class="toggle"><input type="checkbox" name="checkbox-toggle"><i data-swchon-text="ON" data-swchoff-text="OFF"></i>AQUIELCHECK</label>';})
 
 
     ];

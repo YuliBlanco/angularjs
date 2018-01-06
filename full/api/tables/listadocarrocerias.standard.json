@@ -1,13 +1,10 @@
 [
   {
     "codigocarroceria": "29",
-    "codigodescripcion": "bomba",
-    "estado": "activo"
-
+    "codigodescripcion": "bomba"
   },
   {
     "codigocarroceria": "813",
-    "codigodescripcion": "Plataforma",
-    "estado": "inactivo"
+    "codigodescripcion": "Plataforma"
   }
 ]
